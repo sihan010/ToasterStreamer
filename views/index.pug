@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    -if(error)
+        h1.text-center Torrent Error
+    -else
+        h1.text-center #{title}
+        ul.list-group
+            each file,i in files
+                li.list-group-item.text-center
+                    a(href='/'+i)=`${file}`

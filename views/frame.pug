@@ -1,0 +1,13 @@
+doctype html
+html
+    head
+        title Toaster Torrent Streamer
+        meta(name="viewport" content="width=device-width, initial-scale=1")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css")
+    body
+        iframe(src=`http://localhost:${port}/${id}` style="height:100vh; width:100%")
+        br
+    footer
+        p.text-center &copy; Copyrighted to Toaster
+        p.text-center Powered by 
+            a(href="https://webtorrent.io/") WebTorrent

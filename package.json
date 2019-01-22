@@ -1,0 +1,16 @@
+{
+  "name": "ToasterStreamer",
+  "version": "1.0.1",
+  "description": "Stream Torrents without Downloading",
+  "main": "app.js",
+  "author": "Sihan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "find-free-port": "^2.0.0",
+    "pug": "^2.0.3",
+    "torrent-stream": "^1.1.0",
+    "webtorrent": "^0.103.0"
+  }
+}
